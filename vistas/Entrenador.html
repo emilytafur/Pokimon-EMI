@@ -1,65 +1,82 @@
 <!DOCTYPE html>
+<!-- HTML5 -->
+
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Entrenador</title>
-        
+<!-- Idioma inglés -->
 
-        <link rel="stylesheet" href="../css/entrenador.css">
+<head>
+    <meta charset="UTF-8">
+    <!-- Codificación UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Diseño adaptable -->
+    <title>Entrenador</title>
+    <!-- Título de la página -->
+    <link rel="stylesheet" href="../css/entrenador.css">
+    <!-- Enlace al archivo CSS -->
+</head>
 
-    </head>
-    <body>
-        <div>
-            <fieldset>
-                <legend><h1>Entrenador</h1></legend>
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre"
-                    required><br><br>
+<body>
+    <div>
+        <fieldset>
+            <!-- Sección para los datos del entrenador -->
+            <legend><h1>Entrenador</h1></legend>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <!-- Campo para el nombre del entrenador -->
 
-                <label for="apellido">Apellido:</label>
-                <input type="text" id="apellido" name="apellido"
-                    required><br><br>
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required>
+            <!-- Campo para el apellido -->
 
-                <label for="telefono">Teléfono:</label>
-                <input type="text" id="telefono" name="telefono"
-                    required><br><br>
+            <label for="telefono">Teléfono:</label>
+            <input type="text" id="telefono" name="telefono" required>
+            <!-- Campo para el teléfono -->
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"
-                    required><br><br>
-            </fieldset>
-            <fieldset>
-                <legend><h1>Pokimons</h1></legend>
-                <label for="pokimon">Nombre de pokimon:</label>
-<form id="formEntrenador">
-    <select id="nombrePokimon" name="pokimon">
-        <option value="">Selecciona un Pokimon</option>
-      
-    </select>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <!-- Campo para el email -->
+        </fieldset>
 
-    <label for="tipo">Tipo:</label>
-    <input type="text" id="tipo" readonly>
+        <fieldset>
+            <!-- Sección para seleccionar Pokimones -->
+            <legend><h1>Pokimons</h1></legend>
+            <label for="pokimon">Nombre de pokimon:</label>
+            <form id="formEntrenador">
+                <select id="nombrePokimon" name="pokimon">
+                    <option value="">Selecciona un Pokimon</option>
+                    <!-- Lista desplegable para seleccionar Pokimones -->
+                </select>
 
-    <label for="ataque">Ataque:</label>
-    <input type="number" id="ataque" readonly>
+                <label for="tipo">Tipo:</label>
+                <input type="text" id="tipo" readonly>
+                <!-- Campo para mostrar el tipo del Pokémon -->
 
-    <label for="defensa">Defensa:</label>
-    <input type="number" id="defensa" readonly>
-</form>
-            </fieldset>
+                <label for="ataque">Ataque:</label>
+                <input type="number" id="ataque" readonly>
+                <!-- Campo para mostrar el ataque del Pokémon -->
 
-            <fieldset>
-                <legend><h1>OPCIONES</h1></legend>
-                <button id="btnCombatir">Combatir</button>
+                <label for="defensa">Defensa:</label>
+                <input type="number" id="defensa" readonly>
+                <!-- Campo para mostrar la defensa del Pokémon -->
+            </form>
+        </fieldset>
 
-                <a href="../vistas/pokimones.html" class="button">Pokimones:3</a>
+        <fieldset>
+            <!-- Sección de opciones -->
+            <legend><h1>OPCIONES</h1></legend>
+            <button id="btnCombatir">Combatir</button>
+            <!-- Botón para combatir -->
 
-                <div id="resultadoCombate" style="margin-top: 10px; font-weight: bold;"></div>
-                <div id="resultadoBatalla"></div>
-                    
-            </fieldset>
-        </div>
-        <script src="../js/entrenador.js"></script>
-    </body>
+            <a href="../vistas/pokimones.html" class="button">Pokimones:3</a>
+            <!-- Enlace para ver los Pokimones -->
+
+            <div id="resultadoCombate" style="margin-top: 10px; font-weight: bold;"></div>
+            <!-- Resultado del combate -->
+            <div id="resultadoBatalla"></div>
+            <!-- Mensaje del resultado de la batalla -->
+        </fieldset>
+    </div>
+    <script src="../js/entrenador.js"></script>
+    <!-- Enlace al archivo JavaScript -->
+</body>
 </html>

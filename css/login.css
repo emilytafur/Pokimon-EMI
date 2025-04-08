@@ -1,142 +1,224 @@
-body{
+/* Fondo general */
+body {
     background-image: url('../assets/img/7.jpg');
+    /* Imagen de fondo */
     background-size: cover;
-    font-family:'Comic Sans MS', cursive, sans-serif;
+    /* La imagen cubre toda la pantalla */
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    /* Fuente personalizada */
     margin: 50px;
-    border: 3px solid #ffffff; 
+    /* Espaciado externo */
+    border: 3px solid #ffffff;
+    /* Borde blanco */
     padding: 30px;
+    /* Espaciado interno */
     box-shadow: 0 0 5000px rgba(0,0,0,0.5);
+    /* Sombra alrededor del contenedor */
     border-radius: 95px;
+    /* Bordes redondeados */
 }
+
+/* Estilo del título principal */
 .titlePoki {
     font-family: 'Comic Sans MS', cursive, sans-serif;
+    /* Fuente personalizada */
     color: white;
+    /* Color del texto */
     font-size: 40px;
+    /* Tamaño de fuente */
     text-shadow: 3px 3px 6px black;
+    /* Sombras del texto */
     text-align: center;
+    /* Alineación central */
     margin-bottom: 10px;
+    /* Espaciado inferior */
 }
 
+/* Contenedor principal */
 .container {
     display: flex;
+    /* Diseño flexible */
     justify-content: center;
+    /* Centrado horizontal */
     align-items: center;
+    /* Centrado vertical */
     height: 80vh;
+    /* Altura del contenedor */
 }
 
+/* Segundo contenedor */
 .container-seg {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 20vh;
+    /* Altura más pequeña */
 }
 
+/* Estilo del título en el contenedor */
 .container h1 {
     font-size: 3rem;
+    /* Tamaño grande del texto */
     color: #fff;
+    /* Texto blanco */
     text-shadow: 2px 2px 5px rgba(54, 53, 53, 0.404);
+    /* Sombras suaves */
 }
 
+/* Subtítulo */
 .titleSub-poki {
     text-align: center;
+    /* Texto centrado */
 }
 
+/* Texto descriptivo */
 .text-poki {
     color: #eee;
+    /* Color gris claro */
     font-family: "Comic Sans MS", cursive, sans-serif;
+    /* Fuente personalizada */
     font-size: 30px;
+    /* Tamaño grande */
     margin-top: 10px;
+    /* Espaciado superior */
     text-shadow: 1px 1px 3px black;
+    /* Sombras sutiles */
 }
 
+/* Contenedor de botones */
 .botton-group {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px 0;
+    /* Margen entre los botones */
     gap: 20px;
+    /* Espaciado entre elementos */
 }
 
-
-
-/*boton de inicio sesion*/
+/* Botón de inicio de sesión */
 .botton-poki {
     background-color: #ffcc00;
+    /* Fondo amarillo */
     color: #000000;
+    /* Texto negro */
     padding: 25px 50px;
+    /* Espaciado interno */
     border: 3px solid #ffffff;
+    /* Borde blanco */
     border-radius: 50px;
+    /* Bordes redondeados */
     font-family: "Comic Sans MS", cursive, sans-serif;
+    /* Fuente personalizada */
     font-size: 15px;
+    /* Tamaño del texto */
     font-weight: bold;
+    /* Texto en negrita */
     box-shadow: 2px 2px 8px #000;
+    /* Sombra ligera */
     transition: all 0.3s ease;
+    /* Transición suave para el hover */
 }
 
-
-
-
+/* Efecto hover del botón */
 .botton-poki:hover {
     background-color: #fff;
+    /* Fondo blanco al pasar el mouse */
     color: #ffcc00;
+    /* Texto amarillo */
     cursor: pointer;
+    /* Cambia el cursor */
     transform: scale(1.05);
+    /* Aumenta ligeramente el tamaño */
     border-color: #ffcc00;
+    /* Cambia el color del borde */
 }
 
+/* Formulario */
 .formulario-poki {
-    background-color:rgba(212, 205, 205, 0.39);
+    background-color: rgba(212, 205, 205, 0.39);
+    /* Fondo semitransparente */
     height: auto;
     width: 40%;
+    /* Tamaño del formulario */
     border-radius: 15px;
+    /* Bordes redondeados */
     padding: 20px;
+    /* Espaciado interno */
     box-shadow: 0px 0px 20px #f7f7f7;
+    /* Sombra */
     text-align: center;
+    /* Texto centrado */
 }
 
+/* Tabla */
 table {
     width: 100%;
     height: 100%;
+    /* Ocupa todo el ancho y alto */
     border-collapse: collapse;
+    /* Bordes colapsados */
 }
 
+/* Celdas de la tabla */
 table td {
     font-family: "Comic Sans MS", cursive;
+    /* Fuente personalizada */
     padding: 10px;
+    /* Espaciado interno */
     color: #ffffff;
+    /* Texto blanco */
 }
 
+/* Campos de entrada */
 .input-poki {
     border: 2px solid #ffcc00;
+    /* Borde amarillo */
     border-radius: 10px;
+    /* Bordes redondeados */
     height: 30px;
+    /* Altura del campo */
     padding: 5px 10px;
+    /* Espaciado interno */
     font-size: 16px;
+    /* Tamaño de fuente */
     font-family: "Comic Sans MS", cursive;
+    /* Fuente personalizada */
 }
 
+/* Enlaces */
 .link-poki {
     font-family: "Comic Sans MS", cursive;
+    /* Fuente personalizada */
     color: white;
+    /* Texto blanco */
     text-decoration: underline;
+    /* Subrayado */
     font-size: 16px;
+    /* Tamaño de fuente */
 }
 
-
+/* Línea divisoria en el pie de página */
 .footer-border {
     border-top: 4px dashed #fff;
+    /* Línea discontinua blanca */
     margin-top: 20px;
+    /* Espaciado superior */
     padding-top: 50px;
+    /* Relleno interno */
     text-align: center;
+    /* Texto centrado */
     color: white;
+    /* Texto blanco */
     font-size: 16px;
+    /* Tamaño de fuente */
     text-shadow: 1px 1px 3px black;
+    /* Sombras del texto */
 }
 
-
-
-
+/* Fuente personalizada para el proyecto */
 @font-face {
     font-family: 'Pokimon';
     src: url('../assets/fuentes/Minecraft.ttf') format('truetype');
+    /* Fuente externa */
 }

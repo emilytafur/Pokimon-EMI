@@ -4,96 +4,153 @@ body {
     padding: 0;
     height: 100vh;
     background-image: url('../assets/img/555.jpg');
+    /* Imagen de fondo */
     background-size: cover;
+    /* Ajusta el tamaño de la imagen al contenedor */
     background-position: center;
+    /* Centra la imagen */
     font-family: 'Comic Sans MS', cursive, sans-serif;
+    /* Fuente de texto */
     margin: 50px;
+    /* Espaciado interno */
     border: 3px solid #ffffff; 
+    /* Borde blanco */
     padding: 30px;
+    /* Relleno interno */
     box-shadow: 0 0 5000px rgba(0,0,0,0.5);
+    /* Sombra del contenedor */
     border-radius: 95px;
+    /* Bordes redondeados */
 }
 
 /* Contenedor principal */
 .container {
     display: flex;
+    /* Usa un diseño flexible */
     flex-direction: column;
+    /* Coloca los elementos en una columna */
     align-items: center;
+    /* Centra los elementos horizontalmente */
     justify-content: center;
+    /* Centra los elementos verticalmente */
     gap: 20px;
+    /* Espaciado entre elementos */
     text-align: center;
+    /* Alineación del texto */
 }
 
 /* Título */
 .titlePoki {
     color: white;
+    /* Color blanco */
     font-size: 3em;
+    /* Tamaño de fuente */
     text-shadow: 3px 3px 5px black;
+    /* Sombras para el texto */
     margin: 0;
+    /* Sin margen */
 }
 
 /* Subtítulo */
 .text-poki {
     color: white;
+    /* Color blanco */
     font-size: 1.3em;
+    /* Tamaño de fuente */
     text-shadow: 2px 2px 3px black;
+    /* Sombras para el texto */
     margin-top: 5px;
+    /* Espaciado superior */
 }
 
 .formulario {
     background-color: rgba(212, 205, 205, 0.39);
+    /* Fondo semitransparente */
     border-radius: 20px;
+    /* Bordes redondeados */
     padding: 30px 40px;
+    /* Relleno interno */
     box-shadow: 0 0 20px rgb(255, 246, 246);
+    /* Sombra del formulario */
     width: 320px;
-
+    /* Ancho fijo */
 }
 
 table {
     width: 100%;
+    /* Ancho de la tabla */
 }
 
 td {
     padding: 8px 0;
+    /* Espaciado interno */
     color: rgb(255, 255, 255);
+    /* Color de texto blanco */
     font-weight: bold;
+    /* Texto en negrita */
     font-size: 0.95em;
+    /* Tamaño de fuente */
     text-align: left;
+    /* Alineación del texto */
 }
 
 .input-poki {
     width: 100%;
+    /* Ancho completo */
     padding: 8px;
+    /* Espaciado interno */
     border-radius: 10px;
+    /* Bordes redondeados */
     border: 2px solid #ffd500;
+    /* Borde amarillo */
     font-size: 1em;
+    /* Tamaño de fuente */
     outline: none;
+    /* Sin contorno */
     box-sizing: border-box;
+    /* Ajusta el tamaño del cuadro */
 }
 
 .input-poki:focus {
     border-color: orange;
+    /* Borde naranja al seleccionar */
     background-color: #fffce6;
+    /* Fondo claro al seleccionar */
 }
 
 /* Botón */
 .botton-poki {
     background-color: #ffcc00;
+    /* Fondo amarillo */
     color: #000000;
+    /* Color de texto negro */
     padding: 25px 50px;
+    /* Espaciado interno */
     border: 3px solid #ffffff;
+    /* Borde blanco */
     border-radius: 50px;
+    /* Bordes redondeados */
     font-family: "Comic Sans MS", cursive, sans-serif;
+    /* Fuente del botón */
     font-size: 15px;
+    /* Tamaño de fuente */
     font-weight: bold;
+    /* Texto en negrita */
     box-shadow: 2px 2px 8px #000;
+    /* Sombra */
     transition: all 0.3s ease;
+    /* Animación suave */
 }
 
 .botton-poki:hover {
     background-color: #fff;
+    /* Fondo blanco al pasar el mouse */
     color: #ffcc00;
+    /* Texto amarillo al pasar el mouse */
     cursor: pointer;
+    /* Cambia el cursor a "manito" */
     transform: scale(1.05);
+    /* Agranda el botón ligeramente */
     border-color: #ffcc00;
+    /* Borde amarillo */
 }

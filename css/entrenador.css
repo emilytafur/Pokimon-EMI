@@ -1,117 +1,112 @@
+/* Fuente personalizada */
 @font-face {
     font-family: 'Pokimon';
-    src: url('../assets/fuentes/Minecraft.ttf') format('truetype');
+    src: url('../assets/fuentes/Minecraft.ttf') format('truetype'); 
 }
 
+/* Fondo principal */
 body {
-    background-image: url('../assets/img/8889.jpg');
-    background-position-x: top center;
-    background-size: cover;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    margin: 0px;
-    padding: 90px;
-    border:4px solid #ffffff; 
-    box-shadow: 0 0 3000px rgba(0,0,0,0.5);
-    border-radius: 70px;
-    color: white;
-    font-size: 10px;
+    background-image: url('../assets/img/8889.jpg'); /* Imagen de fondo */
+    background-position-x: top center; /* Posición centrada */
+    background-size: cover; /* Ajuste de tamaño */
+    font-family: "Comic Sans MS", cursive, sans-serif; /* Fuente personalizada */
+    margin: 0px; padding: 90px; /* Espaciado */
+    border: 4px solid #ffffff; /* Borde blanco */
+    box-shadow: 0 0 3000px rgba(0,0,0,0.5); /* Sombra */
+    border-radius: 70px; /* Bordes redondeados */
+    color: white; font-size: 10px; /* Color y tamaño de texto */
 }
 
-/*fondo trans de poki y entra*/
+/* Fondo transparente */
 fieldset {
-    border: 1px solid #f3f3f3;
-    border-radius: 15px;
-    margin-bottom: 25px;
-    padding: 20px;
-    background-color:rgba(0, 0, 0, 0.39);
-    box-shadow: 2px 2px 10px rgb(255, 251, 251);
+    border: 1px solid #f3f3f3; /* Borde claro */
+    border-radius: 15px; /* Bordes redondeados */
+    margin-bottom: 25px; /* Espaciado inferior */
+    padding: 20px; /* Espaciado interno */
+    background-color: rgba(0, 0, 0, 0.39); /* Fondo semitransparente */
+    box-shadow: 2px 2px 10px rgb(255, 251, 251); /* Sombra clara */
 }
-/*letra entrenador y pokimos*/
+
+/* Títulos principales */
 legend h1 {
-    font-family:"Comic Sans MS", cursive, sans-serif;
-    font-size: 3em;
-    color: #ffae00;
-    text-shadow: 1px 1px 2px #000000;
-    margin: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif; /* Fuente personalizada */
+    font-size: 3em; color: #ffae00; /* Tamaño y color del texto */
+    text-shadow: 1px 1px 2px #000000; /* Sombra negra */
+    margin: 0; /* Sin margen */
 }
-/*letras del fondo*/
+
+/* Etiquetas de texto */
 label {
-    font-weight: bold;
-    font-size: 1.8em;
-    color: #ffffff;
-    display: block;
-    margin-bottom: 3px;
-    text-shadow: 1px 1px 2px #000000;
+    font-weight: bold; font-size: 1.8em; /* Texto grande y en negrita */
+    color: #ffffff; /* Texto blanco */
+    text-shadow: 1px 1px 2px #000000; /* Sombra */
+    margin-bottom: 3px; /* Espaciado inferior */
+    display: block; /* Bloque completo */
 }
 
-input[type="text"],
-input[type="email"] {
-    width: 100%;
-    padding: 6px 10px;
-    border: 1px solid #f5a43b;
-    border-radius: 10px;
-    font-size: 0.9em;
-    margin-bottom: 15px;
-    box-sizing: border-box;
-    background-color: #fffdfd;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+/* Estilo de campos de texto y email */
+input[type="text"], input[type="email"] {
+    width: 100%; /* Ancho completo */
+    padding: 6px 10px; /* Espaciado interno */
+    border: 1px solid #f5a43b; /* Borde naranja */
+    border-radius: 10px; /* Bordes redondeados */
+    font-size: 0.9em; /* Tamaño del texto */
+    background-color: #fffdfd; /* Fondo blanco */
+    margin-bottom: 15px; /* Espaciado inferior */
+    font-family: "Comic Sans MS", cursive, sans-serif; /* Fuente */
+    box-sizing: border-box; /* Ajuste del cuadro */
 }
-/*nose*/
+
+/* Efecto en campos activos */
 input:focus {
-    border-color: rgb(255, 0, 0);
-    background-color: #fcfafa;
+    border-color: rgb(255, 0, 0); /* Borde rojo */
+    background-color: #fcfafa; /* Fondo claro */
 }
 
-/* Estilo para el botón y el enlace que se vean igual */
+/* Botones y enlaces */
 button, .button {
-    background-color: #ffcc00;
-    color: #000000;
-    padding: 25px 50px;
-    border: 3px solid #ffffff;
-    border-radius: 50px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    box-shadow: 2px 2px 8px #000;
-    transition: all 0.3s ease;
-    text-decoration: none; 
-    display: inline-block; 
-    text-align: center; 
+    background-color: #ffcc00; /* Fondo amarillo */
+    color: #000000; /* Texto negro */
+    padding: 25px 50px; /* Espaciado interno */
+    border: 3px solid #ffffff; /* Borde blanco */
+    border-radius: 50px; /* Bordes redondeados */
+    font-family: "Comic Sans MS", cursive, sans-serif; /* Fuente */
+    font-size: 15px; font-weight: bold; /* Texto en negrita */
+    box-shadow: 2px 2px 8px #000; /* Sombra */
+    text-decoration: none; display: inline-block; text-align: center; /* Estilo de enlace */
+    transition: all 0.3s ease; /* Animación suave */
 }
 
+/* Efecto hover en botones */
 button:hover, .button:hover {
-    background-color: #fff;
-    color: #ff7300;
-    border-color: #e6a500;
-    transform: scale(1.03);
+    background-color: #fff; /* Fondo blanco */
+    color: #ff7300; /* Texto naranja */
+    border-color: #e6a500; /* Borde oscuro */
+    transform: scale(1.03); /* Aumenta ligeramente */
 }
-/* Estilo para el select */
+
+/* Selectores */
 select {
-    width: 100%;
-    padding: 6px 10px;
-    border: 1px solid #f5a43b;
-    border-radius: 10px;
-    font-size: 0.9em;
-    margin-bottom: 15px;
-    box-sizing: border-box;
-    background-color: #fffdfd;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    color: black;
+    width: 100%; /* Ancho completo */
+    padding: 6px 10px; /* Espaciado interno */
+    border: 1px solid #f5a43b; /* Borde naranja */
+    border-radius: 10px; /* Bordes redondeados */
+    font-size: 0.9em; /* Tamaño del texto */
+    margin-bottom: 15px; /* Espaciado inferior */
+    background-color: #fffdfd; /* Fondo claro */
+    font-family: "Comic Sans MS", cursive, sans-serif; /* Fuente */
+    color: black; /* Texto negro */
 }
 
-/* Estilo para inputs tipo número, por si los usas */
+/* Inputs numéricos */
 input[type="number"] {
-    width: 100%;
-    padding: 6px 10px;
-    border: 1px solid #f5a43b;
-    border-radius: 10px;
-    font-size: 0.9em;
-    margin-bottom: 15px;
-    box-sizing: border-box;
-    background-color: #fffdfd;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    color: black;
+    width: 100%; /* Ancho completo */
+    padding: 6px 10px; /* Espaciado interno */
+    border: 1px solid #f5a43b; /* Borde naranja */
+    border-radius: 10px; /* Bordes redondeados */
+    font-size: 0.9em; /* Tamaño del texto */
+    margin-bottom: 15px; /* Espaciado inferior */
+    background-color: #fffdfd; /* Fondo claro */
+    font-family: "Comic Sans MS", cursive, sans-serif; /* Fuente */
+    color: black; /* Texto negro */
 }
-
-  
-

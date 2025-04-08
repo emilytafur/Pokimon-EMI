@@ -1,88 +1,96 @@
+/* Fondo */
 body {
-    background-image: url('../assets/img/5.jpg');
-    background-size: cover;
-    font-family:'Comic Sans MS', cursive, sans-serif;
-    margin: 50px;
-    border: 3px solid #ffffff; 
-    padding: 55px;
-    box-shadow: 0 0 5000px rgba(0,0,0,0.5);
-    border-radius: 95px;
+    background-image: url('../assets/img/5.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Ajuste de fondo */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente personalizada */
+    margin: 50px; padding: 55px; /* Espaciado externo e interno */
+    border: 3px solid #ffffff; /* Borde blanco */
+    box-shadow: 0 0 5000px rgba(0,0,0,0.5); /* Sombra intensa */
+    border-radius: 95px; /* Bordes redondeados */
 }
 
+/* Título principal */
 .titlePoki {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    font-weight: bold;
-    text-align: center;
-    color: #fff;
-    text-shadow: 23px 23px 50px #000;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente personalizada */
+    font-weight: bold; /* Texto en negrita */
+    text-align: center; /* Texto centrado */
+    color: #fff; /* Color blanco */
+    text-shadow: 23px 23px 50px #000; /* Sombra llamativa para el título */
 }
 
+/* Contenedor */
 .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60vh;
-    text-align: center;
-    margin-bottom: 50px;
+    display: flex; /* Diseño flexible */
+    justify-content: center; align-items: center; /* Centrado vertical y horizontal */
+    height: 60vh; /* Altura del contenedor */
+    text-align: center; /* Texto centrado */
+    margin-bottom: 50px; /* Margen inferior */
 }
 
+/* Encabezado dentro del contenedor */
 .container h1 {
-    font-size: 3rem;
-    color: #fffbfb;
-    text-shadow: 2px 2px 4px #000;
+    font-size: 3rem; /* Tamaño grande del texto */
+    color: #fffbfb; /* Texto blanco */
+    text-shadow: 2px 2px 4px #000; /* Sombra para el texto */
 }
 
+/* Subtítulo */
 .titleSub-poki {
-    margin: 0 auto;
+    margin: 0 auto; /* Centrado automático */
 }
 
+/* Texto descriptivo */
 .text-poki {
-    color: #eee;
-    font-size: 30px;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
-    margin-top: 10px;
-    text-shadow: 1px 1px 3px #000;
+    color: #eee; /* Color gris claro */
+    font-size: 30px; /* Tamaño de fuente */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fuente personalizada */
+    margin-top: 10px; /* Margen superior */
+    text-shadow: 1px 1px 3px #000; /* Sombra suave */
 }
 
+/* Grupo de botones */
 .botton-group {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    margin-top: 30px;
+    display: flex; /* Contenedor flexible */
+    justify-content: center; /* Centrado horizontal */
+    gap: 50px; /* Espaciado entre botones */
+    margin-top: 30px; /* Margen superior */
 }
 
+/* Botón principal */
 .botton-poki {
-    background-color: #ffcc00;
-    color: #000000;
-    padding: 25px 50px;
-    border: 3px solid #ffffff;
-    border-radius: 50px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    box-shadow: 2px 2px 8px #000;
-    transition: all 0.3s ease;
+    background-color: #ffcc00; /* Fondo amarillo */
+    color: #000000; /* Texto negro */
+    padding: 25px 50px; /* Espaciado interno */
+    border: 3px solid #ffffff; /* Borde blanco */
+    border-radius: 50px; /* Bordes redondeados */
+    font-family: "Comic Sans MS", cursive, sans-serif; /* Fuente personalizada */
+    font-size: 15px; font-weight: bold; /* Tamaño y estilo del texto */
+    box-shadow: 2px 2px 8px #000; /* Sombra */
+    transition: all 0.3s ease; /* Animación suave */
 }
 
+/* Efecto hover para botones */
 .botton-poki:hover {
-    background-color: #fff;
-    color: #ff7300;
-    border-color: #e6a500;
-    cursor: pointer;
-    transform: scale(1.05);
+    background-color: #fff; /* Fondo blanco al pasar el ratón */
+    color: #ff7300; /* Texto naranja */
+    border-color: #e6a500; /* Borde amarillo oscuro */
+    cursor: pointer; /* Cambia el cursor */
+    transform: scale(1.05); /* Agranda ligeramente el botón */
 }
 
+/* Fuente personalizada */
 @font-face {
-    font-family: 'Pokimon';
-    src: url('../assets/fuentes/Minecraft.ttf') format('truetype');
+    font-family: 'Pokimon'; /* Nombre de la fuente */
+    src: url('../assets/fuentes/Minecraft.ttf') format('truetype'); /* Ruta de la fuente */
 }
 
+/* Pie de página */
 .footer-border {
-    border-top: 4px dashed #000;
-    margin-top: 40px;
-    padding-top: 20px;
-    text-align: center;
-    color: white;
-    font-size: 14px;
-    text-shadow: 1px 1px 2px black;
+    border-top: 4px dashed #000; /* Línea superior discontinua */
+    margin-top: 40px; /* Margen superior */
+    padding-top: 20px; /* Relleno interno */
+    text-align: center; /* Texto centrado */
+    color: white; /* Texto blanco */
+    font-size: 14px; /* Tamaño de fuente */
+    text-shadow: 1px 1px 2px black; /* Sombra del texto */
 }

@@ -1,51 +1,61 @@
 <!DOCTYPE html>
+<!-- HTML5 -->
+
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>POKIMON</title>
-        <script src="../js/index (1).js"></script>
-        <link rel="stylesheet" href="../css/login.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="titleSub-poki">
-                <h1 class="titlePoki">BIENVENIDO A POKIMON 🧭🏞️</h1>
-                <p class="text-poki">Ingresa para vivir la experiencia</p>
-            </div>
-            <br>
+<!-- Idioma inglés -->
 
-        </div>
-        <div class="container-seg">
-            <div class="formulario-poki">
-                <table>
-                    <tr>
-                        <td>
-                            <label for>Username</label>
-                        </td>
-                        <td>
-                            <input type="text" class="input-poki" name id="username">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label for>Password</label>
-                        </td>
-                        <td>
-                            <input type="password" class="input-poki" name id="clave">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            <br>
-                            <button onclick="Loguear()" class="botton-poki">Inciar sesion</button>
-                        </td>
-                        
-                    </tr>
-                    
-                </table>                
-            </div>
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <!-- Codificación UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Diseño adaptable -->
+    <title>POKIMON</title>
+    <!-- Título de la página -->
+    <script src="../js/index (1).js"></script>
+    <!-- Enlace al archivo JavaScript -->
+    <link rel="stylesheet" href="../css/login.css">
+    <!-- Enlace al archivo CSS -->
+</head>
 
-    </body>
+<body>
+    <div class="container">
+        <!-- Contenedor principal -->
+        <div class="titleSub-poki">
+            <h1 class="titlePoki">BIENVENIDO A POKIMON 🧭🏞️</h1>
+            <!-- Título principal -->
+            <p class="text-poki">Ingresa para vivir la experiencia</p>
+            <!-- Descripción breve -->
+        </div>
+        <br>
+        <!-- Espaciado -->
+    </div>
+    <div class="container-seg">
+        <!-- Segundo contenedor -->
+        <div class="formulario-poki">
+            <!-- Formulario de inicio de sesión -->
+            <table>
+                <!-- Tabla del formulario -->
+                <tr>
+                    <td><label for>Username</label></td>
+                    <!-- Etiqueta para el nombre de usuario -->
+                    <td><input type="text" class="input-poki" name id="username"></td>
+                    <!-- Campo para ingresar el nombre de usuario -->
+                </tr>
+                <tr>
+                    <td><label for>Password</label></td>
+                    <!-- Etiqueta para la contraseña -->
+                    <td><input type="password" class="input-poki" name id="clave"></td>
+                    <!-- Campo para ingresar la contraseña -->
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <br>
+                        <button onclick="Loguear()" class="botton-poki">Inciar sesion</button>
+                        <!-- Botón para iniciar sesión -->
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
 </html>
