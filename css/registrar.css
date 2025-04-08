@@ -1,0 +1,99 @@
+/* Fondo general */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url('../assets/img/555.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 50px;
+    border: 3px solid #ffffff; 
+    padding: 30px;
+    box-shadow: 0 0 5000px rgba(0,0,0,0.5);
+    border-radius: 95px;
+}
+
+/* Contenedor principal */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+}
+
+/* Título */
+.titlePoki {
+    color: white;
+    font-size: 3em;
+    text-shadow: 3px 3px 5px black;
+    margin: 0;
+}
+
+/* Subtítulo */
+.text-poki {
+    color: white;
+    font-size: 1.3em;
+    text-shadow: 2px 2px 3px black;
+    margin-top: 5px;
+}
+
+.formulario {
+    background-color: rgba(212, 205, 205, 0.39);
+    border-radius: 20px;
+    padding: 30px 40px;
+    box-shadow: 0 0 20px rgb(255, 246, 246);
+    width: 320px;
+
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding: 8px 0;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 0.95em;
+    text-align: left;
+}
+
+.input-poki {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border: 2px solid #ffd500;
+    font-size: 1em;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.input-poki:focus {
+    border-color: orange;
+    background-color: #fffce6;
+}
+
+/* Botón */
+.botton-poki {
+    background-color: #ffcc00;
+    color: #000000;
+    padding: 25px 50px;
+    border: 3px solid #ffffff;
+    border-radius: 50px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 2px 2px 8px #000;
+    transition: all 0.3s ease;
+}
+
+.botton-poki:hover {
+    background-color: #fff;
+    color: #ffcc00;
+    cursor: pointer;
+    transform: scale(1.05);
+    border-color: #ffcc00;
+}

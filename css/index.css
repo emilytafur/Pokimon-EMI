@@ -1,0 +1,88 @@
+body {
+    background-image: url('../assets/img/5.jpg');
+    background-size: cover;
+    font-family:'Comic Sans MS', cursive, sans-serif;
+    margin: 50px;
+    border: 3px solid #ffffff; 
+    padding: 55px;
+    box-shadow: 0 0 5000px rgba(0,0,0,0.5);
+    border-radius: 95px;
+}
+
+.titlePoki {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    text-shadow: 23px 23px 50px #000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container h1 {
+    font-size: 3rem;
+    color: #fffbfb;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.titleSub-poki {
+    margin: 0 auto;
+}
+
+.text-poki {
+    color: #eee;
+    font-size: 30px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin-top: 10px;
+    text-shadow: 1px 1px 3px #000;
+}
+
+.botton-group {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.botton-poki {
+    background-color: #ffcc00;
+    color: #000000;
+    padding: 25px 50px;
+    border: 3px solid #ffffff;
+    border-radius: 50px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 2px 2px 8px #000;
+    transition: all 0.3s ease;
+}
+
+.botton-poki:hover {
+    background-color: #fff;
+    color: #ff7300;
+    border-color: #e6a500;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+@font-face {
+    font-family: 'Pokimon';
+    src: url('../assets/fuentes/Minecraft.ttf') format('truetype');
+}
+
+.footer-border {
+    border-top: 4px dashed #000;
+    margin-top: 40px;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    text-shadow: 1px 1px 2px black;
+}

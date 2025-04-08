@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Entrenador</title>
+        
+
+        <link rel="stylesheet" href="../css/entrenador.css">
+
+    </head>
+    <body>
+        <div>
+            <fieldset>
+                <legend><h1>Entrenador</h1></legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"
+                    required><br><br>
+
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido"
+                    required><br><br>
+
+                <label for="telefono">Teléfono:</label>
+                <input type="text" id="telefono" name="telefono"
+                    required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"
+                    required><br><br>
+            </fieldset>
+            <fieldset>
+                <legend><h1>Pokimons</h1></legend>
+                <label for="pokimon">Nombre de pokimon:</label>
+<form id="formEntrenador">
+    <select id="nombrePokimon" name="pokimon">
+        <option value="">Selecciona un Pokimon</option>
+      
+    </select>
+
+    <label for="tipo">Tipo:</label>
+    <input type="text" id="tipo" readonly>
+
+    <label for="ataque">Ataque:</label>
+    <input type="number" id="ataque" readonly>
+
+    <label for="defensa">Defensa:</label>
+    <input type="number" id="defensa" readonly>
+</form>
+            </fieldset>
+
+            <fieldset>
+                <legend><h1>OPCIONES</h1></legend>
+                <button id="btnCombatir">Combatir</button>
+
+                <a href="../vistas/pokimones.html" class="button">Pokimones:3</a>
+
+                <div id="resultadoCombate" style="margin-top: 10px; font-weight: bold;"></div>
+                <div id="resultadoBatalla"></div>
+                    
+            </fieldset>
+        </div>
+        <script src="../js/entrenador.js"></script>
+    </body>
+</html>
